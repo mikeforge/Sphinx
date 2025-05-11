@@ -1,8 +1,12 @@
-
 import React from 'react';
 
 const Home: React.FC = () => {
-  return <div>Welcome to the domain of the Sphinx!</div>;
+  return (
+    <div>
+      <h1>Welcome to the Sphinx Site</h1>
+      <p>This is the home page.</p>
+    </div>
+  );
 };
 
 export default Home;
